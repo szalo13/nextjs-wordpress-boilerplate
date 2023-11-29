@@ -1,8 +1,9 @@
 variable "module" {
-  description   = "Project name"
-  default       = "web"
+  description   = "Module name"
+  default       = "web-assets"
   type          = string
 }
+
 variable "region" {
   description   = "AWS region"
   type          = string
