@@ -1,0 +1,15 @@
+.active-nav-link {
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 1rem;
+  @apply text-3xl md:text-7xl hover:text-white block text-secondary-800 transition ease-in-out;
+}
+
+.separator {
+  @apply h-full border border-white hidden md:inline;
+  margin: 0 2rem;
+}
+
+.header-static-space {
+  min-height: 108px;
+}

@@ -1,0 +1,48 @@
+.member-left-wrapper {
+  left: 45px;
+  bottom: 45px;
+}
+
+.member-right-wrapper {
+  top: 30px;
+  right: 35px;
+}
+
+.member-left {
+  text-align: left;
+  @apply border-l-4 border-primary-500 pl-2;
+}
+
+.member-right {
+  text-align: right;
+  @apply border-r-4 border-primary-500 pr-2;
+}
+
+.member-name {
+  line-height: 1.2rem;
+}
+
+.job-title {
+  line-height: 0.8rem;
+  @apply font-light;
+}
+
+.about-us-img {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (min-width: 580px) {
+  .about-us-img {
+    width: 380px;
+    height: 380px;
+  }
+
+  .member-left-wrapper {
+
+  }
+  
+  .member-right-wrapper {
+    
+  }
+}

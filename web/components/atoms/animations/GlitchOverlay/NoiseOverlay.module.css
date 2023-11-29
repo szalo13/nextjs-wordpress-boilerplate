@@ -1,0 +1,41 @@
+@keyframes noise-1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes noise-2 {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.glitch-overlay-wrapper {
+  @apply absolute w-full h-full;
+}
+
+.noise-1 {
+  @apply absolute w-full h-full top-0 bottom-0 z-10;
+  background-image: url('/images/noise/noise-1.png');
+  background-repeat: repeat;
+  animation: noise-1 0.3s infinite;
+}
+
+.noise-2 {
+  @apply absolute w-full h-full top-0 bottom-0 z-10;
+  background-image: url('/images/noise/noise-2.png');
+  background-repeat: repeat;
+  animation: noise-2 0.3s infinite;
+}

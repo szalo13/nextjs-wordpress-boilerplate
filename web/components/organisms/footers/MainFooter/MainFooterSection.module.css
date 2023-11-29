@@ -1,0 +1,18 @@
+.link {
+  @apply block mb-4 font-semibold;
+}
+
+.sectionName {
+  @apply text-primary-500 uppercase text-sm font-normal font-semibold mb-4;
+}
+
+.listElement {
+  @apply block text-lg font-normal mb-4;
+}
+
+.expert {}
+.about {}
+.about b {
+  @apply text-primary-500;
+}
+.socialIcon {}

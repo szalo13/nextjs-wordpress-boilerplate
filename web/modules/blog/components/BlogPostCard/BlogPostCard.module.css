@@ -1,0 +1,5 @@
+.card { @apply bg-white rounded-lg overflow-hidden; }
+.card-img-wrapper { @apply relative w-full; padding-top: 75%; }
+.title { @apply text-xl font-semibold my-2; }
+.info { @apply text-sm text-gray-600; }
+.excerpt { @apply text-sm text-gray-700; }

@@ -1,0 +1,89 @@
+.page-title {
+  @apply text-4xl text-5xl font-bold mb-4;
+  font-size: 4.8rem;
+}
+
+.section-name {
+  @apply text-base font-bold mb-4 uppercase text-primary-500;
+}
+
+.border-text {
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+}
+
+/* Should be in flex wrapper */
+.title-underline {
+  @apply relative pb-0 mb-0 z-10;
+}
+.title-underline::before {
+  @apply w-full h-6 bg-primary-500 block pl-2 absolute left-8;
+  content: '';
+  bottom: 1rem;
+  z-index: -1;
+}
+
+.section-title-lg {
+  @apply mb-6 text-4xl lg:text-6xl pb-4 font-bold;
+}
+
+.section-title-md {
+  @apply text-3xl font-bold mb-4;
+}
+
+.section-title-sm {
+  @apply text-xl font-bold mb-4;
+}
+
+.section-title-xs {
+  @apply text-lg font-bold mb-4;
+}
+
+.subsection-title-md {
+  @apply text-4xl font-bold mb-4;
+}
+
+.paragraph {
+  @apply font-light text-base mb-4;
+}
+
+.paragraph-md {
+  @apply font-light md:text-xl mb-8;
+  font-size: 1.1rem;
+}
+
+.paragraph-lg {
+  @apply font-light text-base md:text-xl mb-10;
+}
+
+.post-title-lg {
+  @apply text-3xl font-bold mb-4;
+}
+
+.post-title {
+  @apply text-2xl font-bold mb-4;
+}
+
+.post-content-lg {
+  @apply text-xl font-light mb-4;
+}
+
+.post-content {
+  @apply text-base font-light mb-4;
+}
+
+.user-name {
+  @apply text-xl font-bold mb-4;
+}
+
+.user-email {
+  @apply text-base font-light mb-4;
+}
+
+.label {
+  @apply text-base font-bold mb-4;
+}
+
+.text-focus {
+  @apply underline;
+}
